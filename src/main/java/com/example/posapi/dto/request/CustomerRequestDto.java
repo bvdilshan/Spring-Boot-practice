@@ -33,6 +33,11 @@ public class CustomerRequestDto {
     public void setAddress(String address) {
         this.address = address;
     }
+    @Override
+    public String toString() {
+        return "CustomerRequestDto [name=" + name + ", salary=" + salary + ", address=" + address + "]";
+    }
+    
 
     
 }
